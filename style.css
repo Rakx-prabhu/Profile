@@ -1,0 +1,375 @@
+:root{
+    --blue: linear-gradient(to right, hsla(205, 82%, 52%, 0.789) , rgba(8, 14, 49, 0.773));
+    --about-green-bg: linear-gradient(to right, hsl(114, 57%, 26%) , rgba(107, 251, 11, 0.968) to bottom,rgba(2, 42, 19, 0.968) );
+    --about-black-bg: linear-gradient(to bottom, #101010, #434343,#0e0909ce);
+    --about-blue-bg: linear-gradient(to bottom, #031018 #182a31);
+    --about-white-bg:hsla(0, 0%, 89%, 0.821);
+    --text-color:linear-gradient(to right,#8fc4d0,#00cffe);
+
+    --black-fade: linear-gradient(0deg, #000000d4, 10%, hsl(0deg 0% 0% / 31%) 100%);
+    
+    --body-text-blue:hsl(197.07deg 100% 72.75% / 96%);
+    --body-text-green:hsla(0, 0%, 89%, 0.821);
+    --main-body-shadow:hsla(188, 100%, 50%, 0.495);
+
+    --bs-font-sans-serif: "Plus Jakarta Sans";
+    --bs-font-monospace: 'SFMono-Regular', 'Menlo',' Monaco', 'Consolas', 
+                        "Liberation Mono", "Courier New", monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+/* .main-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95rem;
+    height: 815px;
+    overflow: hidden;
+    padding-bottom: 30px;
+    background: linear-gradient(to bottom, rgb(7, 2, 16), #0f2f3b);
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+.main-section:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55rem;
+    height: 847px;
+    background: var(--black-fade), url(../Profil/Image/yellowBg.webp);
+    background-size: cover;
+    background-blend-mode: darken;
+    border-radius: 0 0 45% 50% / 0 0 1% 100%;
+    transform: scaleX(1.5);
+} 
+
+.home-body{
+    background-color: rgb(0 0 0 / 65%);
+    background-size: cover;
+    height: 30rem;
+    width: 65%;
+    padding: 40px;
+    color:var(--body-text-blue) ; 
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 6px 5px 20px hsl(0deg 0% 0%);
+    position: absolute;
+}
+
+ ============================================================================================================================ */
+
+.mainBg{
+    background-color: hsl(202, 65%, 93%); 
+    width: 95rem;
+    height: 100%;
+}
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95rem;
+    height: 850px;
+    background: hsla(0, 0%, 0%, 0.7) url(../Profil/Image/mainBg2.avif);
+    background-size: cover;
+    background-blend-mode: darken;
+    padding-bottom: 30px;
+}
+
+.home-body{
+    background: hsla(0, 0%, 0%, 0.7);
+    background-blend-mode: darken;
+    height: 35rem;
+    width: 70%;
+    padding: 40px;
+    color:var(--body-text-green) ; 
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 6px 5px 20px hsl(0deg 0% 0%);
+    position: absolute;
+}
+
+/* ============================================================================================================================ */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    height: auto;
+    font-size: 15px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.lnav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li{
+    list-style: none;
+    position: relative;
+    padding: 5px 15px;
+}
+.li-a {
+    text-decoration: none;
+    color:var(--body-text-green);
+}
+
+.lnav-list li a {
+    display: block;
+    padding: 5px 20px;
+}
+
+.rnav{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rnav-list li a {
+    display: block;
+    padding: 5px 20px;
+}
+.li-a:hover {
+    text-decoration:none;
+    font-size: 18px;
+    border-bottom: 1px solid var(--body-text-green);
+    border-radius: 8px;
+}
+.name{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.name-p{
+    font-size: 25px;
+    
+}
+
+/*------------------------------------------------------MAIN-----------------------------------------------------------------------------------*/
+.First-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'san-serif','Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.main-box{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;   
+}
+
+.main-text{
+    font-size: 40px;
+}
+.main-name{
+    margin-left: 30px;
+
+}
+.main-text-image{
+    width: 17rem;
+    border-top:var(--body-text-green) solid 3px;
+    border-bottom:var(--body-text-green) solid 3px;
+    border-radius: 50%;
+}
+.main-text2{
+    margin: 3rem;
+    width: 50%;
+}
+
+.resume{
+    text-decoration: none;
+    padding: 5px;
+    color:var(--body-text-green);
+
+}
+
+.resume-box{
+    
+    margin: 20px;
+    width: max-content;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.458);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    
+}
+
+
+.resume-box:hover{
+    font-size: 22px;
+    border-bottom: 1px solid var(--body-text-blue);
+    border-radius: 8px;
+
+}
+
+/*---------------------------------------------------Secound Section-------------------------------------------------------------------------------*/
+.about-section{
+    display: flex;
+    height: 60rem;
+    width: 95rem;
+    /* background:var(--about-green-bg); */
+    /* background-color:#031018;  */
+    background-blend-mode: darken ;
+    background-size: cover;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+.about{
+    background: url(../Profil/Image/about.avif);
+    margin: 50px;
+    padding: 25px;
+    background-size: cover;
+    width: 40rem;
+    height: 23rem;
+    position: relative;
+    top: 6rem;
+    left: 4rem;
+}
+.main-text-about{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.about-border{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.text-decoration-none{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+}
+.text-decoration-none:hover{
+    font-size: 27px;
+    color: rgba(179, 179, 179, 0.711);
+
+}
+.social-list{
+    padding: 35px;
+    gap: 45px;
+}
+.work-with-me{
+    background-image: url(../Profil/Image/mainboxBg.jpg);
+    width: 25rem;
+    height: 29rem;
+    padding: 0px 20px;
+    position: relative;
+    top: -5rem;
+    left: 14rem;
+    z-index: 2;
+    color: black;
+}
+.about-image-display{
+    background: url(../Profil/Image/about-display.jpeg);
+    background-size: cover;
+    position: absolute;
+    width: 34rem;
+    height: 20rem;
+    top: 86rem;
+    left: 57rem;
+    border: 2px solid black;
+    border-radius: 24px;
+}
+   
+
+.wanna-work{
+    margin: 30px;
+}
+.work-info{
+    display: flex;
+    height: 60%;
+    font-size: 23px;
+    font-family: monospace;
+    margin: 35px 10px;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact{
+    text-decoration: none;
+    font-size: 25px;
+    background: var(--about-black-bg);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.contact:hover{
+    border: 1px solid transparent;
+}
+
+.margin-top{
+    margin-top: 20px;
+}
+/* ------------------------------------------------------------------------------ Project Section--------------------------------------------------------------- */
+
+.services{
+    display: flex;
+    height: 30rem;
+    width: 95rem;
+    flex-direction: column;
+    background-color: hsl(200deg 53.46% 14.06%);
+}
+
+.services-text{
+    font-size: 60px;
+    font-family:Chivo,sans-serif,'Arial Narrow Bold';
+    
+}
+.main-slides{
+    display: flex;
+    justify-content: space-around;
+}
+.slides{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 15%;
+    height: 124%;
+    margin-top: 4%;
+    flex-direction: column;
+    align-items: center;
+}
+.slides-img{
+    width: 45%;
+    height: 45%;
+    margin-top: 15px;
+    border: 2px solid #736b6b3d;
+    border-radius: 100%;
+}
+.slides-text{
+    padding: 10px;
+    font-size: 30px;
+    font-family: ui-sans-serif;
+}
+.slides-text:hover{
+    color:rgba(255, 255, 255, 0.852);
+    font-size: 32px;
+}
+
+/* ============================================Projects=============================================================== */
+
+.projects{
+    display: flex;
+    height: 800px;
+    width: 95rem;
+    flex-direction: column;
+    background-color: hsl(200deg 53.46% 14.06%);
+}
+
+.projects-text{
+    font-size: 60px;
+    font-family:Chivo,sans-serif,'Arial Narrow Bold';
+}
